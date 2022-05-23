@@ -1,0 +1,49 @@
+{
+    "ip": "0.0.0.0",
+    "port": 25565,
+    "opLevel": 4,
+    "onlineMode": true,
+    "proxy": "VELOCITY",
+    "velocitySecret": "{secret}",
+    "renderDistance": 16,
+    "entityDistance": 16,
+    "useFlatGenerator": true,
+    "flatLayers": [
+        {
+            "block": {
+                "id": 25
+            },
+            "thickness": 1
+        },
+        {
+            "block": {
+                "id": 1
+            },
+            "thickness": 25
+        },
+        {
+            "block": {
+                "id": 9
+            },
+            "thickness": 7
+        },
+        {
+            "block": {
+                "id": 8
+            },
+            "thickness": 1
+        }
+    ],
+    "optifineSupport": true,
+    "unknownMessage": "<red>잘못된 명령어입니다!",
+    "useBlockRules": true,
+    "detailedConsole": false,
+    "compressionThreshold": 256,
+    "shouldRespawnAtSpawnPoint": true,
+    "timeRate": 0,
+    "time": 0,
+    "lan": false,
+    "lanPingDelay": 1.5,
+    "lanEventDelay": 30.0,
+    "opUtilities": false
+}
