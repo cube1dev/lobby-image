@@ -6,7 +6,7 @@ ENV VELOCITY_SECRET=${VELOCITY_SECRET}
 
 WORKDIR /srv
 
-ADD ./server/* /srv
+ADD ./server/* /srv/
 RUN mkdir /srv/lobby
 ADD ./lobby /srv/lobby
 
