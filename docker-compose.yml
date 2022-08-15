@@ -7,8 +7,6 @@ services:
     networks:
       - mc
     tty: true
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
     environment:
       - TZ=Asia/Seoul
 
