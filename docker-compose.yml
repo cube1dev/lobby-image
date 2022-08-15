@@ -9,7 +9,7 @@ services:
     tty: true
     volumes:
       - ./songs:/srv/songs
-      - /etc/localtime:/etc/localtime:ro
+      - /etc/locagtime:/etc/localtime:ro
     environment:
       - TZ=Asia/Seoul
 
