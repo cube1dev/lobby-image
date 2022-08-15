@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  lobby:
+    container_name: 'lobby'
+    image: 'lobby'
+    networks:
+      - mc
+    tty: true
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - TZ=Asia/Seoul
+
+networks:
+  mc:
+    external: true
