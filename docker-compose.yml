@@ -6,6 +6,7 @@ services:
     image: 'lobby'
     networks:
       - mc
+    privileged: true
     tty: true
     volumes:
       - ./songs:/srv/songs
