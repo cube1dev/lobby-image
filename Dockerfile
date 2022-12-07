@@ -11,6 +11,7 @@ RUN mkdir /srv/lobby
 ADD ./lobby /srv/lobby
 
 RUN mkdir /srv/extensions
+COPY ./LobbyExtension-*-all.jar /srv/extensions
 COPY ./NBStom-1.0.0-all.jar /srv/extensions
 
 RUN wget https://github.com/Project-Cepi/Particable/releases/download/latest/particable-1.0.0-all.jar -P /srv/extensions
